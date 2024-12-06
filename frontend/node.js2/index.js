@@ -3,8 +3,10 @@
 
 console.log(__dirname)
 console.log(__filename)
-console.log("ok")
+const add=require('./calculator.js');
+console.log(add(2,3));
 
+rquire('http');
 
 
 //}
