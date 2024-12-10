@@ -9,9 +9,9 @@ const gomb = React.createElement("button",
 {
     onclick:function()
     {
-        alert("ez egy natív kód")
+        alert("ez egy react kód")
     },
 },
 "React gomb"
 )
-ReactDOM.render(gomb,documen.getElementById("react-button-container"));
+ReactDOM.render(gomb,document.getElementById("react-button-container"));
