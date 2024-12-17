@@ -13,6 +13,11 @@ const server=http.createServer(function(req,res){
     res.end('Hello World');
 });
 server.listen(8080);
+//Ez a kód egy egyszerű HTTP szervert hoz létre Node.js-ben, amely a 8080-as porton válaszol a kérésekre és a "Hello World" szöveget küldi vissza.
+
+
+
+
 
 //}
 
